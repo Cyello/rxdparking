@@ -1,0 +1,31 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 283
+  HorizontalOffset = 470
+  VerticalOffset = 228
+  Width = 488
+  object conexaoBanco: TIBConnection
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = transacao
+    Options = []
+    CheckTransactionParams = False
+    left = 40
+    top = 24
+  end
+  object qryClientes: TSQLQuery
+    FieldDefs = <>
+    Options = []
+    Params = <>
+    left = 216
+    top = 24
+  end
+  object transacao: TSQLTransaction
+    Active = False
+    Database = conexaoBanco
+    Options = []
+    left = 40
+    top = 88
+  end
+end

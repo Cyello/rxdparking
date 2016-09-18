@@ -1,0 +1,11 @@
+*.exe
+rxparking
+*.lpr
+*.lps
+*.res
+lib/
+src/*.bak
+src/daos/*.bak
+src/datamodules/*.bak
+src/models/*.bak
+src/views/*.bak
