@@ -1,0 +1,15 @@
+object dmMenuPrincipal: TdmMenuPrincipal
+  OldCreateOrder = False
+  Height = 111
+  HorizontalOffset = 374
+  VerticalOffset = 172
+  Width = 319
+  object menuPrincipal: TMainMenu
+    left = 48
+    top = 16
+  end
+  object aclMenuPrincipal: TActionList
+    left = 152
+    top = 16
+  end
+end
